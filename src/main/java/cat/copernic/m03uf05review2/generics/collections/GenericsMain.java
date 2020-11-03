@@ -15,14 +15,12 @@ import java.util.List;
  */
 public class GenericsMain {
     
-    
-    
     /**
-     * Escribe un método que retorne el ultimo elemento de una lista
+     * Escribe un método genericl que retorne el ultimo elemento de una lista
      */
-    public static <T> T ultimo(List<T> lista) {
-        // ...
-        return null;
+    public static <T> T ultimo(List<T> lista) throws Exception {
+        if (lista.isEmpty()) throw new Exception("Lista vacia");
+        return lista.get(lista.size() - 1);
     }
     
     
@@ -37,10 +35,25 @@ public class GenericsMain {
     /**
      * Escribe un método que retorne la cadena mas larga de una lista de String
      */
+    public static String masLargo(List<String> lista) {
+        return null;
+    }
     
     /**
      * Escribe un método que retorne el maximo de una lista de enteros
      */
+    public static int maximo(List<Integer> lista) {
+        return 0;
+    }
+    
+    /**
+     * Escribe un método que retorne el numero mas repedido
+     */
+    public static int masRepetido(List<Integer> lista) {
+        return 0;
+    }
+    
+    
     
     
 
@@ -48,8 +61,6 @@ public class GenericsMain {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        
-        
         
         List<String> lista1 = new ArrayList<>();
         
@@ -59,23 +70,7 @@ public class GenericsMain {
         lista1.add("Carles");   
         lista1.add("Pep");   
 
-        if (lista1.isEmpty()) {
-            System.out.println("Lista es buida");
-        } else {
-            System.out.println("Lista te " + lista1.size() + " elements.");
-        }
-        
-        lista1.remove("Carles");
-//        
-//        for (int i = 0; i < lista1.size(); i++) {
-//            System.out.println(lista1.get(i));
-//        }
-        
-        for(Iterator<String> it = lista1.iterator(); it.hasNext();) {
-            System.out.println(it.next());
-        }
-        
-        List<String> l2 = lista1.subList(0, lista1.size()/ 2);
+
         
     }
     
@@ -86,6 +81,29 @@ public class GenericsMain {
 
 
 
+
+
+
+
+
+
+//        if (lista1.isEmpty()) {
+//            System.out.println("Lista es buida");
+//        } else {
+//            System.out.println("Lista te " + lista1.size() + " elements.");
+//        }
+//        
+//        lista1.remove("Carles");
+////        
+////        for (int i = 0; i < lista1.size(); i++) {
+////            System.out.println(lista1.get(i));
+////        }
+//        
+//        for(Iterator<String> it = lista1.iterator(); it.hasNext();) {
+//            System.out.println(it.next());
+//        }
+//        
+//        List<String> l2 = lista1.subList(0, lista1.size()/ 2);
 
 
 
