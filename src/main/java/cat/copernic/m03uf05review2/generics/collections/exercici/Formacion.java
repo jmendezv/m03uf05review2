@@ -3,16 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package cat.copernic.m03uf05review2.generics.collections.exercci;
-
-import java.util.List;
+package cat.copernic.m03uf05review2.generics.collections.exercici;
 
 /**
  *
  * @author pep
  */
-public interface Matcher {
-    
-    Persona matches(Persona persona, List<Persona> candidatos);
-    
+public enum Formacion {
+    PRIMARIA, SECUNDARIA, BACHILLERATO, GRADO_MEDIO, GRADO_SUPERIOR, GRADO, DOCTORADO, CATEDRATICO;
 }

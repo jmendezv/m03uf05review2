@@ -3,12 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package cat.copernic.m03uf05review2.generics.collections.exercci;
+package cat.copernic.m03uf05review2.generics.collections.exercici;
 
 /**
  *
  * @author pep
  */
-public enum Formacion {
-    PRIMARIA, SECUNDARIA, BACHILLERATO, GRADO_MEDIA, GRADO_SUPERIOR, GRADO, DOCTORADO, CATEDRATICO;
+public enum OrientacionPolitica {
+    DERECHA, CENTRO, IZQUIERDA, EXTREMA_DERECHA, EXTREMA_IZQUIERDA;
 }

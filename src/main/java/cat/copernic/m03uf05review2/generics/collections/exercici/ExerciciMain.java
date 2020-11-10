@@ -3,13 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package cat.copernic.m03uf05review2.generics.collections.exercci;
+package cat.copernic.m03uf05review2.generics.collections.exercici;
 
 /**
  *
  * @author pep
  */
-public class ERxerciciMain {
+public class ExerciciMain {
 
     /**
      * @param args the command line arguments
