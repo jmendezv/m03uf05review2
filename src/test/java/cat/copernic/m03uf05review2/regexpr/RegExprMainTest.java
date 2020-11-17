@@ -5,16 +5,17 @@
  */
 package cat.copernic.m03uf05review2.regexpr;
 
+
+//import static org.junit.Assert.*;
+
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Ignore;
 import org.junit.Test;
-//import static org.junit.Assert.*;
-import org.junit.jupiter.api.Disabled;
 import static org.junit.jupiter.api.Assertions.*;
-import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
 
@@ -82,8 +83,8 @@ public class RegExprMainTest {
      * Test of ValidateNie method, of class RegExprMain.
      */
     @Test
-    //@Disabled
-    @Ignore
+    @Disabled
+    //@Ignore
     public void testValidateNie() {
 
     }
